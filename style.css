@@ -142,6 +142,7 @@
     align-items: center;
     margin-left: 200px;
     margin-right: 200px;
+    padding-bottom: 100px;
 }
 
 .sub1{
@@ -174,4 +175,25 @@
     color: #1F2937;
     width: 200px;
     text-align: center;
+}
+
+.div5{
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.quote{
+    color: #1F2937;
+    font-family: sans-serif;
+    font-weight: 50;
+    font-size: 36px;
+}
+
+.author{
+    font-family: sans-serif;
+    text-align: right;
+    font-weight: bold;
 }
