@@ -71,14 +71,23 @@
     padding-bottom: 5px;
     border-radius: 8px;
     font-weight: bold;
+    border: 1px;
 }
 
 .img{
     border-width: 1px;
     border-color: black;
-    background-color: lightslategray;
+    background-color: grey;
     padding: 100px 100px 100px 100px;
     color: #E5E7EB;
     flex-grow: 1.5;
+    text-align: center;
+}
+
+.div2{
+    color: #1F2937;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 36px;
     text-align: center;
 }
