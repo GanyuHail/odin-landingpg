@@ -1,11 +1,36 @@
 .header{
     display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-end;
+    flex-grow: 2;
     color: #F9FAF8;
-    background-color: #1F2937; 
+    background-color: #1F2937;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.item { 
+    flex: 1; 
+    margin: 0 1%;
+}
+
+.logo{
+    display:flex;
+    align-content: flex-start;
+    flex-grow: 10;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .div1{
+    gap: 24px;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
     color: #F9FAF8;
     background-color: #1F2937;
 }
